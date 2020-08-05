@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6a845e0f24cf4a9dba55e420c9a828fc" Name="Diagram1">
+        <EntityTypeShape EntityType="airportModel.AirLine" Width="1.5" PointX="7.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.Airport" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.City" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.Country" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.Flight" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.Route" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="airportModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="airportModel.FK__Flight__AirlineO__57DD0BE4" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__Flight__AirlineU__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__Airport__City_ID__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__Route__Destinati__503BEA1C" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__Route__Origin__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__City__Country_ID__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.FK__Flight__Route_ID__56E8E7AB" ManuallyRouted="false" />
+        <AssociationConnector Association="airportModel.Stop" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
